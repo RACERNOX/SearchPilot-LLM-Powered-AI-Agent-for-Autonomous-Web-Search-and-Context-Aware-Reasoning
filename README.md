@@ -62,6 +62,13 @@ ollama pull llama3.1:8b
    ollama serve
    ```
 
+## ⚠️ Important Note for Deployment
+
+**For local development only**: This project currently requires Ollama to be running locally. For cloud deployment, you would need to:
+- Use a cloud-based LLM API (OpenAI, Anthropic, etc.)
+- Or deploy Ollama in a container environment
+- This demo shows the local setup
+
 ## 🚀 Usage
 
 ### Web Interface (Recommended)
