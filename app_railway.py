@@ -202,7 +202,7 @@ async def clear_conversation():
     return {"status": "cleared"}
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8000))
+    port = int(os.environ.get("PORT", 10000))  # Render default port
     logger.info(f"Starting SearchPilot on port {port}")
     logger.info(f"Groq API Key configured: {'Yes' if os.getenv('GROQ_API_KEY') else 'No'}")
     
